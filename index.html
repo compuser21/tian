@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tian</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="header-nav">
+            <a href="/" class="header-logo"><img src="/assets/images/Logo.png" alt="Logo"></a>
+            <ul class="link-group">
+                <li class="link">Home</li>
+                <li class="link">Portfolio</li>
+                <li class="link">Skills</li>
+                <li class="link">About Me</li>
+            </ul>
+            <ul class="button-group">
+                <li><input type="checkbox" class="theme-toggle" id="theme-toggle" />
+                    <label class="label" for="theme-toggle">
+                        <i class="fas fa-moon"></i>
+                        <i class="fas fa-sun"></i>
+                        <div class="ball"></div>
+                    </label></li>
+                <li><button class="header-button">Button</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+    </main>
+    <footer class="footer">
+
+    </footer>
+    <script>
+       const chk =  document.getElementById('theme-toggle');
+ chk.addEventListener('change', () => {
+ 	document.body.classList.toggle('dark');
+ });
+    </script>
+</body>
+</html>
