@@ -1,0 +1,68 @@
+.hero {
+    position: relative;
+    overflow: hidden;
+}
+.hero-container {
+    max-width: 88%;
+    margin: 0 auto;
+    padding-top: 60px;
+    display: grid;
+
+    grid-template-columns: 1fr 1fr; 
+    gap: 40px; 
+}
+.hero-text-container {
+    position: relative;
+    display: grid;
+    margin: 0 0;
+    gap: 18px;
+}
+.hero-title {
+    font-family: 'Anton';
+    font-size: 200px;
+    line-height: 90%;
+    color: #292929;
+}
+.hero-name {
+    font-family: 'Anton';
+    font-size: 113px;
+    line-height: 90%;
+    background: linear-gradient(90deg, rgba(250,112,154,1) 0%, rgba(254,225,64,1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.links-container {
+    display: flex;
+    padding-top: 70px;
+    gap: 76px;
+}
+.hero-button {
+    background-color: #292929;
+    padding: 16px 24px 16px 32px;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 20px;
+    width: 100%;
+    max-width: 692px;
+    margin-top: 40px;
+}
+.hero-photo-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+}
+@media (max-width: 1628px) {
+    .hero-photo-container {
+        display: none;
+    }
+    .hero-container {
+        grid-template-columns: 1fr; 
+    }
+
+    .hero-text-container {
+        align-items: center;
+        text-align: center; 
+        justify-items: center;
+    }
+}
