@@ -4,6 +4,12 @@
 
 @import url('header.css');
 @import url('hero.css');
+@import url('statistics.css');
+
+@font-face {
+    font-family: 'Gotham Black';
+    src: url(/assets/fonts/Gotham\ Black\ Regular.ttf);
+}
 
 :root {
     /*variables*/
