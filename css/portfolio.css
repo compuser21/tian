@@ -1,0 +1,58 @@
+.portfolio {
+    position: relative;
+    overflow: hidden;
+}
+.portfolio-container {
+    max-width: 88%;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+.portfolio-title {
+    font-family: 'Anton';
+    font-size: 64px;
+}
+.portfolio-container ul {
+    margin-top: 36px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.portfolio-card {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 23px;
+}
+.portfolio-card-info {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+.portfolio-card-title {
+    font-family: 'Gotham Black';
+    font-size: 28px;
+}
+.portfolio-card-badges {
+    display: flex;
+    gap: 5px;
+}
+.portfolio-card-badge {
+    padding: 0px 6px;
+    border: 1px solid #BE9FF6;
+    border-radius: 12px;
+    background-color: #E9DFFC;
+    font-size: 14px;
+    color: #784DC7;
+}
+.portfolio-button {
+    background-color: #292929;
+    padding: 16px 24px 16px 32px;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 16px;
+    width: 100%;
+    max-width: 692px;
+}
