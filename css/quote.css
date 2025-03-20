@@ -1,0 +1,28 @@
+.quote {
+    position: relative;
+    overflow: hidden;
+    margin-top: 200px;
+    background-image: url(/assets/images/quote.png);
+
+}
+.qoute-container {
+    max-width: 72%;
+    margin: 147px auto;
+    text-align: center;
+}
+.quote-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.quote-author {
+    font-size: 48px;
+    line-height: 105%;
+    color: white;
+}
+.quote-text {
+    font-size: 48px;
+    line-height: 105%;
+    color: white;
+}

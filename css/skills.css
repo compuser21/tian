@@ -1,0 +1,53 @@
+.skills {
+    position: relative;
+    overflow: hidden;
+}
+.skills-container {
+    max-width: 88%;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+.skills-container ul {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+.skills-title {
+    font-family: 'Anton';
+    font-size: 64px;
+}
+.skills-card {
+    display: flex;
+    flex-direction: row;
+    gap: 23px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 23px;
+}
+.skills-card-graph {
+    position: relative;
+}
+.skills-card-graph img {
+    width: 100%;
+    height: auto;
+}
+.skills-card-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 455px;
+}
+.skills-card-title {
+    font-size: 36px;
+    font-weight: 600;
+}
+.skills-card-text {
+    font-size: 20px;
+}
+@media (max-width: 1628px) {
+    .skills-container ul {
+        justify-content: center;
+    }
+}
